@@ -1,0 +1,12 @@
+C:\Users\Luciano Mendez\Documents\NET\ACME.SchoolManagement\bin\Debug\net8.0\ACME.SchoolManagement.deps.json
+C:\Users\Luciano Mendez\Documents\NET\ACME.SchoolManagement\bin\Debug\net8.0\ACME.SchoolManagement.dll
+C:\Users\Luciano Mendez\Documents\NET\ACME.SchoolManagement\bin\Debug\net8.0\ACME.SchoolManagement.pdb
+C:\Users\Luciano Mendez\Documents\NET\ACME.SchoolManagement\obj\Debug\net8.0\ACME.SchoolManagement.csproj.AssemblyReference.cache
+C:\Users\Luciano Mendez\Documents\NET\ACME.SchoolManagement\obj\Debug\net8.0\ACME.SchoolManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luciano Mendez\Documents\NET\ACME.SchoolManagement\obj\Debug\net8.0\ACME.SchoolManagement.AssemblyInfoInputs.cache
+C:\Users\Luciano Mendez\Documents\NET\ACME.SchoolManagement\obj\Debug\net8.0\ACME.SchoolManagement.AssemblyInfo.cs
+C:\Users\Luciano Mendez\Documents\NET\ACME.SchoolManagement\obj\Debug\net8.0\ACME.SchoolManagement.csproj.CoreCompileInputs.cache
+C:\Users\Luciano Mendez\Documents\NET\ACME.SchoolManagement\obj\Debug\net8.0\ACME.SchoolManagement.dll
+C:\Users\Luciano Mendez\Documents\NET\ACME.SchoolManagement\obj\Debug\net8.0\refint\ACME.SchoolManagement.dll
+C:\Users\Luciano Mendez\Documents\NET\ACME.SchoolManagement\obj\Debug\net8.0\ACME.SchoolManagement.pdb
+C:\Users\Luciano Mendez\Documents\NET\ACME.SchoolManagement\obj\Debug\net8.0\ref\ACME.SchoolManagement.dll
