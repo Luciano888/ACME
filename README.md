@@ -2,41 +2,41 @@
 
 ## Description
 
-Esta librería ayuda a la gestión de estudiantes, cursos e inscripción en ACME. 
-Añade registro de estudiantes, inscripción en cursos y procesamiento de pagos.
-Se añadio el patrón UnitOfWork que actua sobre la gestión de transacciones.
+Esta librerÃ­a ayuda a la gestiÃ³n de estudiantes, cursos e inscripciÃ³n en ACME. 
+AÃ±ade registro de estudiantes, inscripciÃ³n en cursos y procesamiento de pagos.
+Se aÃ±adio el patrÃ³n UnitOfWork que actua sobre la gestiÃ³n de transacciones.
 La idea es coordinar la escritura de los cambios en la base de datos en una 
-sola transacción así como mantener un registro de los cambios realizados en algún en las entidades.
-Se trabajo sobretodo en la abstracción del sistema con un repositorio que maneja entidades genéricas.
+sola transacciÃ³n asÃ­ como mantener un registro de los cambios realizados en algÃºn en las entidades.
+Se trabajo sobretodo en la abstracciÃ³n del sistema con un repositorio que maneja entidades genÃ©ricas.
 
 Se debe usar la interfaz *IRepository<T>* que define los metodos que el repositorio implementa.
 Permite que los servicios interactuen y se comuniquen con la BD de manera desacoplada y flexible.
 
-El *PaymentGatewayService* es una implementación del servicio de pasarela de pagos. Simula un pago y maneja la tokenización de tarjetas.
+El *PaymentGatewayService* es una implementaciÃ³n del servicio de pasarela de pagos. Simula un pago y maneja la tokenizaciÃ³n de tarjetas.
 
-Qué cosas te hubiera gustado hacer pero no hiciste?
-- Implementación de encriptación de datos en la pasarela de pagos
-- Validación de datos de entrada
+QuÃ© cosas te hubiera gustado hacer pero no hiciste?
+- ImplementaciÃ³n de encriptaciÃ³n de datos en la pasarela de pagos
+- ValidaciÃ³n de datos de entrada
 - Manejo de errores y logs
-Qué cosas hiciste pero crees que se podrían mejorar o que sería necesario volver a ellas si el proyecto sigue adelante?
-- Implementación de REPOSITORIOS. Se usa un repositorio generico y un UNIT OF WORK para manejar la persistencia.
+QuÃ© cosas hiciste pero crees que se podrÃ­an mejorar o que serÃ­a necesario volver a ellas si el proyecto sigue adelante?
+- ImplementaciÃ³n de REPOSITORIOS. Se usa un repositorio generico y un UNIT OF WORK para manejar la persistencia.
 - Migraciones para la base de datos a utilizar.
-- Autenticación (JWT) y controles de autorización para usuarios autorizados
-- Encriptación en el momento de tokenizar se debe reemplazar con una implementación real y encriptar datos sensibles
-- Implementación de IDEMPOTENCIA asegyra que operaciones repetidas no tengan efectos adversos en el sistema.
-Qué librerías de terceros has utilizado y por qué?
+- AutenticaciÃ³n (JWT) y controles de autorizaciÃ³n para usuarios autorizados
+- EncriptaciÃ³n en el momento de tokenizar se debe reemplazar con una implementaciÃ³n real y encriptar datos sensibles
+- ImplementaciÃ³n de IDEMPOTENCIA asegyra que operaciones repetidas no tengan efectos adversos en el sistema.
+QuÃ© librerÃ­as de terceros has utilizado y por quÃ©?
 1. **Microsoft.EntityFrameworkCore**
-ORM que facilita el acceso a BD Relacionales. Facilita la interacción con la base de datos, lectura, creación y eliminación de datos.
+ORM que facilita el acceso a BD Relacionales. Facilita la interacciÃ³n con la base de datos, lectura, creaciÃ³n y eliminaciÃ³n de datos.
 2. **xUnit**
-Framework para pruebas unitarias. Permite escribir y ejecutar pruebas automatizadas para asegurar la calidad y estabilidad del código.
+Framework para pruebas unitarias. Permite escribir y ejecutar pruebas automatizadas para asegurar la calidad y estabilidad del cÃ³digo.
 3. **Unit of Work Pattern**
-Asegura que todas las operaciones dentro de una transacción sean ejecutadas de manera conjunta, proporcionando consistencia y facilitando la gestión de errores y rollbacks.
+Asegura que todas las operaciones dentro de una transacciÃ³n sean ejecutadas de manera conjunta, proporcionando consistencia y facilitando la gestiÃ³n de errores y rollbacks.
 
-## Instalación
+## InstalaciÃ³n
 
-Para instalar la librería, clone el repositorio y restaure los paquetes NuGet:
+Para instalar la librerÃ­a, clone el repositorio y restaure los paquetes NuGet:
 
 ```sh
-git clone <url-del-repositorio>
-cd <nombre-del-proyecto>
+git clone https://github.com/Luciano888/ACME.git
+cd ACME.SchoolManagement
 dotnet restore
