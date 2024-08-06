@@ -1,0 +1,7 @@
+# Ignore Visual Studio temporary files, build results, and
+# include VSCode settings as well
+
+.vs/
+bin/
+obj/
+.vscode/
